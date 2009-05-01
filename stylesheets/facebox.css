@@ -1,0 +1,95 @@
+#facebox .b {
+  background:url(/facebox/b.png);
+  padding:0px;
+}
+
+#facebox .tl {
+  background:url(/facebox/tl.png);
+  padding:0px;
+}
+
+#facebox .tr {
+  background:url(/facebox/tr.png);
+  padding:0px;
+}
+
+#facebox .bl {
+  background:url(/facebox/bl.png);
+  padding:0px;
+}
+
+#facebox .br {
+  background:url(/facebox/br.png);
+  padding:0px;
+}
+
+#facebox {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+}
+
+#facebox .popup {
+  position: relative;
+}
+
+#facebox table {
+  margin: auto;
+  border-collapse: collapse;
+  width:auto;
+}
+
+#facebox .body {
+  padding: 10px;
+  background: #fff;
+  width: 370px;
+}
+
+#facebox .loading {
+  text-align: center;
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox img {
+  border: 0;
+}
+
+#facebox .footer {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 5px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+#facebox .info {
+  margin-top: 5px;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
+  color: #777;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+#facebox .navigation {
+  float: left;
+}
+
+#facebox .close {
+  float: right;
+}
+
+#facebox .next, #facebox .prev {
+  font-size: 170%;
+}
+
+#facebox .tl, #facebox .tr, #facebox .bl, #facebox .br {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  padding: 0;
+}
