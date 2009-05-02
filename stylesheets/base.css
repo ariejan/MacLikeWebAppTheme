@@ -173,12 +173,21 @@ div.half-content-top.title .item{
   margin-top:1px;
   text-align:center;
 }
+div.half-content{
+  background:url(../images/blocks/half-content-repeat.png) repeat-y;
+  overflow:auto;
+}
+div.half-content-bottom{
+  height:10px;
+  background:url(../images/blocks/half-content-bottom.png) bottom left no-repeat;
+  padding:0;
+}
 div.sidebar{
   background:url(../images/blocks/sidebar-repeat.png) repeat-y;
   overflow:auto;
 }
 div.sidebar .item{
-  padding:10px;
+  padding:10px 15px;
   border-top:1px solid #e5e5e5;
 }
 div.sidebar .item.first{
@@ -206,15 +215,8 @@ div.sidebar-top.title, div.sidebar div.subtitle{
 }
 div.sidebar div.subtitle{
   background:url(../images/blocks/sidebar-title-repeat.png) repeat-x;
+  color:#666;
   margin-right:1px;
   margin-left:1px;
 }
-div.half-content{
-  background:url(../images/blocks/half-content-repeat.png) repeat-y;
-  overflow:auto;
-}
-div.half-content-bottom{
-  height:10px;
-  background:url(../images/blocks/half-content-bottom.png) bottom left no-repeat;
-  padding:0;
-}
+
