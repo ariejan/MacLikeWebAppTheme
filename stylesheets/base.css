@@ -155,10 +155,36 @@ div.half-content-top{
   padding:0;
   margin-top:20px;
 }
+div.half-content-top.title{
+  height:40px;
+  background:url(../images/blocks/half-content-title.png) no-repeat;
+}
+div.half-content-top.title a{ text-decoration:none; }
+div.half-content-top.title h2{
+  font-size:1.5em;
+  margin:0 20px;
+  padding:5px 0;
+}
+div.half-content-top.title .item{
+  background:url(../images/breadcrumb/separator.png) repeat-y;
+  padding:10px;
+  display:block;
+  float:right;
+  margin-top:1px;
+  text-align:center;
+}
 div.sidebar{
   background:url(../images/blocks/sidebar-repeat.png) repeat-y;
   overflow:auto;
 }
+div.sidebar .item{
+  padding:10px;
+  border-top:1px solid #e5e5e5;
+}
+div.sidebar .item.first{
+  border-top:none;
+}
+div.sidebar .item p{ margin:0; }
 div.sidebar-bottom{
   height:10px;
   background:url(../images/blocks/sidebar-bottom.png) bottom left no-repeat;
