@@ -105,7 +105,7 @@ form.search{
   display:block;
 }
 div.generic-tools form.search.item{
-  padding:7px 15px;
+  padding:6px 15px;
 }
 form.search span.searchfield-left{
   height:19px;
@@ -141,11 +141,54 @@ div.full-content{
   background:url(../images/blocks/full-content-repeat.png) repeat-y;
   overflow:auto;
 }
-div.inner{
+div.inner, p.inner{
   padding:10px 20px;
 }
 div.full-content-bottom{
   height:10px;
   background:url(../images/blocks/full-content-bottom.png) bottom left no-repeat;
+  padding:0;
+}
+div.half-content-top{
+  height:5px;
+  background:url(../images/blocks/half-content-top.png) top left no-repeat;
+  padding:0;
+  margin-top:20px;
+}
+div.sidebar{
+  background:url(../images/blocks/sidebar-repeat.png) repeat-y;
+  overflow:auto;
+}
+div.sidebar-bottom{
+  height:10px;
+  background:url(../images/blocks/sidebar-bottom.png) bottom left no-repeat;
+  padding:0;
+}
+div.sidebar-top{
+  height:5px;
+  background:url(../images/blocks/sidebar-top.png) top left no-repeat;
+  padding:0;
+  margin-top:20px;
+}
+div.sidebar-top.title, div.sidebar div.subtitle{
+  height:1em;
+  padding:7px 9px 11px 9px;
+  font-weight:bold;
+  background:url(../images/blocks/sidebar-title.png) no-repeat;
+  font-size:1em;
+  color:#333;
+}
+div.sidebar div.subtitle{
+  background:url(../images/blocks/sidebar-title-repeat.png) repeat-x;
+  margin-right:1px;
+  margin-left:1px;
+}
+div.half-content{
+  background:url(../images/blocks/half-content-repeat.png) repeat-y;
+  overflow:auto;
+}
+div.half-content-bottom{
+  height:10px;
+  background:url(../images/blocks/half-content-bottom.png) bottom left no-repeat;
   padding:0;
 }
