@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="stylesheets/blueprint/plugins/tabs/screen.css" type="text/css" media="screen" />
     <!--[if IE]>  <link rel="stylesheet" href="stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">  <![endif]-->
     <link rel="stylesheet" href="stylesheets/base.css" type="text/css" media="screen" />
+    <link href="stylesheets/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/dropdown/default.ultimate.css" media="screen" rel="stylesheet" type="text/css" />
     <script type="text/javascript" charset="utf-8" src="javascripts/jquery-1.3.min.js"></script> 
+    <script type="text/javascript" src="javascripts/jquery.dropdown.js"></script>
+
+
   </head>
   <body>
 
     <div id='top-wrapper'>
       <div id='top' class='container'>
+
         <h1 class='title'>Sim, isso deu trabalho.</h1>
         <ul id='main-nav-left' class='tabs nav'>
           <li class='left selected'><a href='#'>Home</a></li>
@@ -65,13 +71,137 @@
 
     </div>
 
-    <div class='container full-content-top'></div>
-    <div class='container full-content'>
-      <div class='inner'>
-        <h2>Yes, it looks like apple.com ; )</h2>
+
+
+    <!-- full content with right sidebar -->
+
+    <div class='container full-content-top with-right-sidebar'></div>
+    <div class='container full-content with-right-sidebar'>
+      <div class='span-18 block'>
+        <div class='inner'>
+          <h2>Yes, it looks like apple.com ; )</h2>
+          <h3>With right sidebar</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+          </p>
+          <hr />
+          <div class='span-5 colborder'>
+            <h4>Some Title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            </p>
+          </div>
+          <div class='span-5 colborder'>
+            <h4>Some Title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            </p>
+          </div>
+          <div class='span-5 last'>
+            <h4>Some Title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class='span-6 block'>
+        <ul class='content-sidebar right'>
+          <li class='selected'><a href='#'>Item 1</a>
+          <li><a href='#'>Item 1</a></li>
+          <li><a href='#'>Item 1</a></li>
+          <li><a href='#'>Item 1</a></li>
+          <li><a href='#'>Item 1</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class='container full-content-bottom with-right-sidebar'></div>
+
+    <!-- full content with left sidebar -->
+
+    <div class='container full-content-top with-left-sidebar'></div>
+    <div class='container full-content with-left-sidebar'>
+      <div class='span-6 block'>
+        <ul class='content-sidebar'>
+          <li class='selected'><a href='#'>Item 1</a>
+          <li><a href='#'>Item 1</a></li>
+          <li><a href='#'>Item 1</a></li>
+          <li><a href='#'>Item 1</a></li>
+          <li><a href='#'>Item 1</a></li>
+        </ul>
+      </div>
+
+      <div class='span-18 block'>
+        <div class='inner divider'>
+          <h2>Yes, it looks like apple.com ; )</h2>
+          <h3>With left sidebar</h3>
+        </div>
+        <div class='inner'>
+          <div class='span-4'>
+            <h5>List Title</h5>
+            <ul class='mini-list'>
+              <li>some item</li>
+              <li>another item</li>
+              <li>third item</li>
+              <li>one more item</li>
+              <li>and the last one</li>
+            </ul>
+          </div>
+          <div class='span-4'>
+            <h5>List Title</h5>
+            <ul class='mini-list'>
+              <li>some item</li>
+              <li>another item</li>
+              <li>third item</li>
+              <li>one more item</li>
+              <li>and the last one</li>
+            </ul>
+          </div>
+          <div class='span-4'>
+            <h5>List Title</h5>
+            <ul class='mini-list'>
+              <li>some item</li>
+              <li>another item</li>
+              <li>third item</li>
+              <li>one more item</li>
+              <li>and the last one</li>
+            </ul>
+          </div>
+          <div class='span-4'>
+            <h5>List Title</h5>
+            <ul class='mini-list'>
+              <li>some item</li>
+              <li>another item</li>
+              <li>third item</li>
+              <li>one more item</li>
+              <li>and the last one</li>
+            </ul>
+          </div>
+
+        </div>
+
       </div>
     </div>
-    <div class='container full-content-bottom'></div>
+    <div class='container full-content-bottom with-left-sidebar'></div>
+
+
+
     <div class='container'>
       <div class='half-content-wrapper span-17'>
         <div class='half-content-top title'>
@@ -84,8 +214,162 @@
           </div>
         </div>
         <div class='half-content'>
+          <div class='additional-tools divider clearfix'>
+
+          </div>
+          <div class='inner divider'>
+            <h3>Table</h3>
+
+            <table class="table">
+              <tr>             
+                <th class="first"><input type="checkbox" class="checkbox toggle" /></th>   
+                <th>ID</th>
+                <th>Login</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th class="last">
+                  <ul class='actions-nav'>
+                    <li><a class='mini-button red' href="#">destroy</a></li>
+                  </ul>
+                </th>
+              </tr>
+              <tr class="odd">
+                <td class='first'>
+                  <input type="checkbox" class="checkbox" name="id" value="1" />
+                </td>
+                <td>1</td>
+                <td>hulk</td>
+                <td>Hulk</td>
+                <td>Hogan</td>
+                <td class="last">
+                  <ul class='actions-nav'>
+                    <li><a class='mini-button' href="#">show</a></li>
+                    <li><a class='mini-button' href="#">edit</a></li>
+                    <li><a class='mini-button' href="#">destroy</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="even">
+                <td class='first'>
+                  <input type="checkbox" class="checkbox" name="id" value="1" />
+                </td>
+                <td>2</td>
+                <td>ultimate</td>
+                <td>Ultimate</td>
+                <td>Warrior</td>
+                <td class="last">
+                  <ul class='actions-nav'>
+                    <li><a class='mini-button' href="#">show</a></li>
+                    <li><a class='mini-button' href="#">edit</a></li>
+                    <li><a class='mini-button' href="#">destroy</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="odd">
+                <td class='first'>
+                  <input type="checkbox" class="checkbox" name="id" value="1" />
+                </td>
+                <td>3</td>
+                <td>andre</td>
+                <td>Andre</td>
+                <td>The Giant</td>
+                <td class="last">
+                  <ul class='actions-nav'>
+                    <li><a class='mini-button' href="#">show</a></li>
+                    <li><a class='mini-button' href="#">edit</a></li>
+                    <li><a class='mini-button' href="#">destroy</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="even">
+                <td class='first'>
+                  <input type="checkbox" class="checkbox" name="id" value="1" />
+                </td>
+                <td>4</td>
+                <td>machoman</td>
+                <td>Macho Man</td>
+                <td>Randy Savage</td>
+                <td class="last">
+                  <ul class='actions-nav'>
+                    <li><a class='mini-button' href="#">show</a></li>
+                    <li><a class='mini-button' href="#">edit</a></li>
+                    <li><a class='mini-button' href="#">destroy</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+
+            <ul class='actions-nav'>
+              <li><a class='mini-button' href="#">show</a></li>
+              <li><a class='mini-button' href="#">edit</a></li>
+              <li><a class='mini-button' href="#">destroy</a></li>
+            </ul>
+
+          </div>
           <div class='inner'>
-            <h3>Some content here</h3>
+      
+            <h3>Forms</h3>
+            <form action="#" method="get" class="form">
+              <div class="group clearfix">
+                <label class='title'>Title text field here: </label>
+                <input type="text" class="title" />
+              </div>
+              <div class="group clearfix">
+                <label for="post_title">Some text here: </label>
+                <input type="text" class="text" />
+              </div>
+              <hr />
+              <div class="group clearfix">
+                <p class='radio-or-checkbox-legend'>Here we got some checkboxes, check it out xD</p>
+                <span class='radio-or-checkbox-container clearfix'>
+                  <input class='checkbox' type='checkbox' name='checkbox' value='1' />
+                  <label class='label-for-radio-or-checkbox' for='checkbox'>Check me</label>
+                </span>
+                <span class='radio-or-checkbox-container clearfix'>
+                  <input class='checkbox' type='checkbox' name='checkbox' value='2' />
+                  <label class='label-for-radio-or-checkbox' for='checkbox'>Check me</label>
+                </span>
+                <span class='radio-or-checkbox-container clearfix'>
+                  <input class='checkbox' type='checkbox' name='checkbox' value='3' />
+                  <label class='label-for-radio-or-checkbox' for='checkbox'>Check me</label>
+                </span>
+              </div>
+              <hr />
+              <div class="group clearfix">
+                <p class='radio-or-checkbox-legend'>Here we got some radio buttons, check it out xD</p>
+                <span class='radio-or-checkbox-container clearfix'>
+                  <input class='radio' type='radio' name='radio' value='1' />
+                  <label class='label-for-radio-or-checkbox' for='radio'>Check me</label>
+                </span>
+                <span class='radio-or-checkbox-container clearfix'>
+                  <input class='radio' type='radio' name='radio' value='2' />
+                  <label class='label-for-radio-or-checkbox' for='radio'>Check me</label>
+                </span>
+                <span class='radio-or-checkbox-container clearfix'>
+                  <input class='radio' type='radio' name='radio' value='3' />
+                  <label class='label-for-radio-or-checkbox' for='radio'>Check me</label>
+                </span>
+              </div>
+              <hr />
+              <div class="group clearfix">
+                <label for="select">Testing a long long label just to see the behavior: </label>
+                <select>
+                  <option value='1'>option 1</option>
+                  <option value='2'>option 2</option>
+                  <option value='3'>option 3</option>
+                  <option value='4'>option 4</option>
+                </select>
+              </div>
+
+              <div class="group clearfix">
+                <label>Text area</label>
+                <textarea class="text" rows="10" cols="80"></textarea>
+                <span class="description">Write here a long text</span>
+              </div>
+              <div class="group navform">
+                <input type="submit" class="save-button" value="Save" /> 
+              </div>
+            </form>
           </div>
         </div>
         <div class='half-content-bottom'></div>

@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1024px"
@@ -17,6 +18,39 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs2385">
+    <linearGradient
+       id="linearGradient3554">
+      <stop
+         style="stop-color:#f5f5f5;stop-opacity:1;"
+         offset="0"
+         id="stop3556" />
+      <stop
+         style="stop-color:#dddddd;stop-opacity:1;"
+         offset="1"
+         id="stop3558" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3542">
+      <stop
+         style="stop-color:#efefef;stop-opacity:1;"
+         offset="0"
+         id="stop3544" />
+      <stop
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="1"
+         id="stop3546" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3507">
+      <stop
+         style="stop-color:#d1d1d1;stop-opacity:1;"
+         offset="0"
+         id="stop3509" />
+      <stop
+         id="stop3515"
+         offset="1"
+         style="stop-color:#bdbdbd;stop-opacity:0.94117647;" />
+    </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 384 : 1"
@@ -53,6 +87,67 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 526.18109 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2479"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3325"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3501"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3507"
+       id="linearGradient3513"
+       x1="535"
+       y1="-7"
+       x2="535"
+       y2="149.755"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.7650602e-3,0,0,0.8,0,-4.9001e-2)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3542"
+       id="linearGradient3548"
+       x1="502.40405"
+       y1="238.63246"
+       x2="502.41919"
+       y2="204.74883"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9968027,0,0,1.3059705,696.88446,27.613078)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3554"
+       id="linearGradient3560"
+       x1="1411.7817"
+       y1="-17.038439"
+       x2="1411.7817"
+       y2="564.56561"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,8.5274017e-2,0,127.07782)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3554"
+       id="linearGradient3563"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0010369,0,0,8.5274017e-2,-1.1062174,127.07782)"
+       x1="1411.7817"
+       y1="-17.038439"
+       x2="1411.7817"
+       y2="564.56561" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -61,9 +156,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.6085906"
-     inkscape:cx="389.51816"
-     inkscape:cy="345.25482"
+     inkscape:zoom="0.69274165"
+     inkscape:cx="766.92306"
+     inkscape:cy="330.02054"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -90,37 +185,40 @@
      inkscape:groupmode="layer"
      style="display:inline">
     <rect
-       style="opacity:1;fill:#434343;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient3513);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2393"
-       width="1024"
-       height="150"
+       width="3.8554218"
+       height="120"
        x="0"
-       y="-0.24500275" />
+       y="-0.24500275"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/top.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="217.755"
        x="40"
        height="526.44781"
        width="950"
        id="rect3217"
-       style="opacity:1;fill:#d5d5d5;fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3223)"
-       rx="5"
-       ry="5"
-       inkscape:export-filename="/home/esdras/rect3171.png"
+       style="opacity:1;fill:#d5d5d5;fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:0.99999911;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3223)"
+       rx="17.62735"
+       ry="4.9955845"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/blocks/rect3171.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="matrix(0.9989479,0,0,1.0000009,4.1812945e-2,-4.0112282e-4)" />
+       transform="matrix(0.2836501,0,0,1.0008839,28.523982,-0.4242514)" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/esdras/rect3171.png"
-       ry="5.0000043"
-       rx="4.9947395"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:0.99947429;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/blocks/rect3171.png"
+       ry="5"
+       rx="4.9999995"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3199"
-       width="949.00055"
-       height="526.4483"
-       x="39.999729"
-       y="215.75479" />
+       width="269.00049"
+       height="526.91321"
+       x="39.869987"
+       y="215.52148" />
     <rect
        style="opacity:1;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:0.92254949;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3171"
@@ -133,5 +231,83 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/full_breadcrumb_background.png" />
+    <path
+       id="path3262"
+       d="M 78.947823,166.2273 L 88.950849,181.24091 L 78.947823,196.20007"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/breadcrumb_item.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#d5d5d5;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 78.172466,166.20272 L 88.175492,181.21633 L 78.172466,196.17549"
+       id="path3260"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/breadcrumb_item.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       y="172.37854"
+       x="55.676727"
+       id="image3327"
+       height="16"
+       width="16"
+       sodipodi:absref="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/home_icon.gif"
+       xlink:href="images/breadcrumb/home_icon.gif"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/home_icon.gif.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 129.34808,170.0241 L 129.34808,177.92771"
+       id="path3331"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/separator.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path3333"
+       d="M 128.84337,170.0241 L 128.84337,177.92771"
+       style="fill:none;fill-rule:evenodd;stroke:#d5d5d5;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/breadcrumb/separator.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       y="168.5"
+       x="784.75"
+       id="image3503"
+       height="25"
+       width="188"
+       sodipodi:absref="/home/esdras/Desktop/search/global/findbar/find-bg.png"
+       xlink:href="/home/esdras/Desktop/search/global/findbar/find-bg.png"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/search-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/main-nav-items.png"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       ry="4.876616"
+       rx="4.9948049"
+       y="-139.98485"
+       x="81.535721"
+       height="39.012928"
+       width="949.01294"
+       id="rect3517"
+       style="opacity:1;fill:#f7f7f7;fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:0.98707134;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:url(#linearGradient3548);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1075.5504,300.17047 L 1334.5824,300.17047 C 1337.3436,300.17047 1339.5664,303.08279 1339.5664,306.70033 L 1339.5664,339.17047 L 1070.5664,339.17047 L 1070.5664,306.70033 C 1070.5664,303.08279 1072.7893,300.17047 1075.5504,300.17047 z"
+       id="rect3539"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/table-th.png" />
+    <path
+       style="fill:url(#linearGradient3563);fill-opacity:1;fill-rule:nonzero;stroke:#d5d5d5;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1071.8059,129.78859 L 1730.7955,129.78859 C 1733.5684,129.78859 1735.8007,132.01859 1735.8007,134.78859 L 1735.8007,169.7206 L 1066.8007,169.7206 L 1066.8007,134.78859 C 1066.8007,132.01859 1069.0331,129.78859 1071.8059,129.78859 z"
+       id="rect3552"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/esdras/sites/mac_webapp_theme/images/half-content-title.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
