@@ -352,6 +352,47 @@ table.big-table th .mini-button { font-size: 0.8em; }
 .mini-button:hover { background:url(../images/mini-button-hover.png) no-repeat; color:#fff; }
 .mini-button.red { background:url(../images/destroy-mini-button.png) no-repeat; }
 .mini-button.red:hover { background:url(../images/destroy-mini-button-hover.png) no-repeat; color:#fff; }
+
+/* labels */
+span.label {
+  padding:2px 10px;
+  border-top:1px solid #aaa;
+  border-left:1px solid #aaa;
+  border-right:1px solid #666;
+  border-bottom:1px solid #666;
+  background:url(../images/gray-label.png) repeat-x;
+  color:#333;
+  font-weight:bold;
+  font-size:.9em;
+}
+span.label.red{
+  border-top:1px solid #d00;
+  border-left:1px solid #d00;
+  border-right:1px solid #400;
+  border-bottom:1px solid #400;
+  background:url(../images/red-label.png) repeat-x;
+  color:#fff;
+}
+span.label.yellow{
+  border-top:1px solid #ffdd00;
+  border-left:1px solid #ffdd00;
+  border-right:1px solid #cc8000;
+  border-bottom:1px solid #cc8000;
+  background:url(../images/yellow-label.png) repeat-x;
+  color:#333;
+}
+span.label.green{
+  border-top:1px solid #0e0;
+  border-left:1px solid #0e0;
+  border-right:1px solid #040;
+  border-bottom:1px solid #040;
+  background:url(../images/green-label.png) repeat-x;
+  color:#fff;
+}
+
+
+
+
 /* forms */
 .form { text-align:center; position:relative; padding:40px;}
 .form .group { display:block; position:relative; margin:auto auto 20px auto; text-align:left;}
