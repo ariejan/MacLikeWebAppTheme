@@ -19,10 +19,12 @@ a.new-entity:hover{ background:url(../images/cadastrar-hover.png) no-repeat; }
 hr{ height:1px; }
 
 h1, h2, h3, h4, h5, p{ color:#444; }
+h1 { font-size: 2.3em; }
 h5 { font-size:1em; font-weight:bold; margin:auto; }
 
 h4{ font-weight:bold; }
 
+/* top-nav */
 div#top-wrapper{
   height:120px;
   width:100%;
@@ -33,10 +35,30 @@ div#top-wrapper{
 div#top{
   height:120px;
   position:relative;
+  overflow:hidden;
 }
+div#top-nav-wrapper{ margin-top:1px; }
+ul.top-nav{
+  list-style-type:none;
+  margin:auto;
+  height:20px;
+}
+ul.top-nav li{
+  line-height:20px;
+  display:inline;
+  float:left;
+  background:#ccc;
+}
+ul.top-nav li.append { padding-right:10px; }
+ul.top-nav li a { line-height:20px; }
+ul#right-top-nav{ float:right; }
+ul#left-top-nav{ float:left; }
+
+
+
 h1.title{
   position:absolute;
-  top:20px;
+  top:35px;
 }
 ul.nav{
   position:absolute;
