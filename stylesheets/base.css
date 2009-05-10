@@ -15,7 +15,7 @@ a.new-entity{
   background:url(../images/cadastrar.png) no-repeat;
   text-align:left;
 }
-
+a.new-entity:hover{ background:url(../images/cadastrar-hover.png) no-repeat; }
 hr{ height:1px; }
 
 h1, h2, h3, h4, h5, p{ color:#666; }
@@ -325,16 +325,17 @@ table.table tr th{
 table tr.even td{
   background:#f7f7f7;
 }
-table td.first, table th.first,{
+table td.first, table th.first{
   text-align:center;
 }
-table.table td.last, table.table th.last { text-align:right;}
+table.table td.last, table.table th.last { text-align:right; padding-right:5px;}
 
 table.big-table td, table.big-table th{ padding:10px 15px; }
 table.big-table th { font-size:1.2em; border-bottom:1px dotted #d5d5d5; }
 
 
 /* mini-buttons */
+/*
 table.big-table th .mini-button { font-size: 0.8em; }
 .mini-button{
   display:block; 
@@ -352,44 +353,61 @@ table.big-table th .mini-button { font-size: 0.8em; }
 .mini-button:hover { background:url(../images/mini-button-hover.png) no-repeat; color:#fff; }
 .mini-button.red { background:url(../images/destroy-mini-button.png) no-repeat; }
 .mini-button.red:hover { background:url(../images/destroy-mini-button-hover.png) no-repeat; color:#fff; }
-
+*/
 /* labels */
-span.label {
+span.label, .mini-button {
   padding:2px 10px;
-  border-top:1px solid #aaa;
-  border-left:1px solid #aaa;
-  border-right:1px solid #666;
-  border-bottom:1px solid #666;
   background:url(../images/gray-label.png) repeat-x;
   color:#333;
   font-weight:bold;
-  font-size:.9em;
+  font-size:0.8em;
 }
-span.label.red{
+.mini-button {
+  border-top:1px solid #ddd;
+  border-left:1px solid #ddd;
+  border-right:1px solid #666;
+  border-bottom:1px solid #666;
+}
+span.label.red, .mini-button.red{
+  background:url(../images/red-label.png) repeat-x;
+  color:#fff;
+}
+.mini-button.red{
   border-top:1px solid #d00;
   border-left:1px solid #d00;
   border-right:1px solid #400;
   border-bottom:1px solid #400;
-  background:url(../images/red-label.png) repeat-x;
-  color:#fff;
 }
-span.label.yellow{
+span.label.yellow, .mini-button.yellow{
+  background:url(../images/yellow-label.png) repeat-x;
+  color:#333;
+}
+.mini-button.yellow{
   border-top:1px solid #ffdd00;
   border-left:1px solid #ffdd00;
   border-right:1px solid #cc8000;
   border-bottom:1px solid #cc8000;
-  background:url(../images/yellow-label.png) repeat-x;
-  color:#333;
 }
-span.label.green{
+span.label.green, .mini-button.green{
+    background:url(../images/green-label.png) repeat-x;
+  color:#fff;
+}
+.mini-button.green{
   border-top:1px solid #0e0;
   border-left:1px solid #0e0;
   border-right:1px solid #040;
   border-bottom:1px solid #040;
-  background:url(../images/green-label.png) repeat-x;
+}
+span.label.black, .mini-button.black{
+  background:url(../images/black-label.png) repeat-x;
   color:#fff;
 }
-
+.mini-button.black{
+  border-top:1px solid #666;
+  border-left:1px solid #666;
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+}
 
 
 
@@ -431,6 +449,15 @@ input.text:focus, input.title:focus, textarea:focus, select:focus {border:1px so
   color:#b0b0b0;
 }
 
+form.mini label{ display:block; }
+form.mini input.text, form.mini textarea, form.mini select { border:1px solid #d0d0d0; width:228px; margin:auto auto 15px auto; }
+form.mini select { width: 239px; }
+form.mini textarea { height: 100px; }
+
+div.span-6.block form.mini { padding:20px; }
+div.span-6.block form.mini input.text, 
+div.span-6.block form.mini textarea { width: 178px; }
+div.span-6.block form.mini select { width: 190px; }
 
 /* lists */
 

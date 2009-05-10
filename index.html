@@ -138,13 +138,24 @@
     <div class='container full-content-top with-left-sidebar'></div>
     <div class='container full-content with-left-sidebar'>
       <div class='span-6 block'>
-        <ul class='content-sidebar'>
-          <li class='selected'><a href='#'>Item 1</a>
-          <li><a href='#'>Item 1</a></li>
-          <li><a href='#'>Item 1</a></li>
-          <li><a href='#'>Item 1</a></li>
-          <li><a href='#'>Item 1</a></li>
-        </ul>
+        <form class='mini'>
+          <h3>Would you like to add something?</h3>
+          <p>Here is a mini form in wich you can just do it!</p>
+          <label for='login'>Login: </label>
+          <input type='text' class='text' name='login' />
+          <label for='name'>Name: </label>
+          <input type='text' class='text' name='name' />
+          <label for='surname'>Surname: </label>
+          <input type='text' class='text' name='surname' />
+          <label for='description'>Description: </label>
+          <textarea name='description'></textarea>
+          <label for='gender'>Gender: </label>
+          <select name='gender'>
+            <option value='male'>Male</option>
+            <option value='female'>Female</option>
+          </select>
+          <input type='submit' class='mini-button' value='Add'/>
+        </form>
       </div>
 
       <div class='span-18 block'>
@@ -397,9 +408,9 @@
                 <td>Warrior</td>
                 <td class="last">
                   <ul class='actions-nav'>
-                    <li><a class='mini-button' href="#">show</a></li>
-                    <li><a class='mini-button' href="#">edit</a></li>
-                    <li><a class='mini-button' href="#">destroy</a></li>
+                    <li><a class='mini-button green' href="#">show</a></li>
+                    <li><a class='mini-button green' href="#">edit</a></li>
+                    <li><a class='mini-button green' href="#">destroy</a></li>
                   </ul>
                 </td>
               </tr>
@@ -413,9 +424,9 @@
                 <td>The Giant</td>
                 <td class="last">
                   <ul class='actions-nav'>
-                    <li><a class='mini-button' href="#">show</a></li>
-                    <li><a class='mini-button' href="#">edit</a></li>
-                    <li><a class='mini-button' href="#">destroy</a></li>
+                    <li><a class='mini-button black' href="#">show</a></li>
+                    <li><a class='mini-button black' href="#">edit</a></li>
+                    <li><a class='mini-button black' href="#">destroy</a></li>
                   </ul>
                 </td>
               </tr>
@@ -429,9 +440,9 @@
                 <td>Randy Savage</td>
                 <td class="last">
                   <ul class='actions-nav'>
-                    <li><a class='mini-button' href="#">show</a></li>
-                    <li><a class='mini-button' href="#">edit</a></li>
-                    <li><a class='mini-button' href="#">destroy</a></li>
+                    <li><a class='mini-button yellow' href="#">show</a></li>
+                    <li><a class='mini-button yellow' href="#">edit</a></li>
+                    <li><a class='mini-button yellow' href="#">destroy</a></li>
                   </ul>
                 </td>
               </tr>
@@ -506,41 +517,50 @@
         <div class='half-content-bottom'></div>
       </div>
       <div class='sidebar-wrapper span-7 last'>
-        <div class='sidebar-top'></div>
+
+        <div class='sidebar-top title'>Mini Form</div>
         <div class='sidebar'>
           <div class='item first'>
-            here you see a sidebar with no title
+            <form class='mini'>
+              <label for='login'>Login: </label>
+              <input type='text' class='text' name='login' />
+              <label for='name'>Name: </label>
+              <input type='text' class='text' name='name' />
+              <label for='surname'>Surname: </label>
+              <input type='text' class='text' name='surname' />
+              <label for='description'>Description: </label>
+              <textarea name='description'></textarea>
+              <label for='gender'>Gender: </label>
+              <select name='gender'>
+                <option value='male'>Male</option>
+                <option value='female'>Female</option>
+              </select>
+              <input type='submit' class='mini-button' value='Add'/>
+            </form>
+          </div>
+          <div class='subtitle'>Sidebar Subtitle</div>
+          <div class='item'>
+            Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor 
           </div>
           <div class='item'>
-            here you see a sidebar with no title
+            Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor 
           </div>
           <div class='item'>
-            here you see a sidebar with no title
+            Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor 
           </div>
 
         </div>
         <div class='sidebar-bottom'></div>
-
-        <div class='sidebar-top title'>Sidebar Title</div>
+        <div class='sidebar-top'></div>
         <div class='sidebar'>
           <div class='item first'>
-            here you see a sidebar with title
+            Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor 
           </div>
           <div class='item'>
-            here you see a sidebar with title
+            here you see a sidebar with no title Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor 
           </div>
           <div class='item'>
-            here you see a sidebar with title
-          </div>
-          <div class='subtitle'>Sidebar Subtitle</div>
-          <div class='item'>
-            here you see a sidebar with title
-          </div>
-          <div class='item'>
-            here you see a sidebar with title
-          </div>
-          <div class='item'>
-            here you see a sidebar with title
+            here you see a sidebar with no title Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor 
           </div>
 
         </div>
