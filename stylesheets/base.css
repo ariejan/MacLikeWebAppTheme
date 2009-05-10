@@ -6,6 +6,15 @@ body {
 
 a{ color:#2798D6; text-decoration:none;}
 a:hover{ color:#666; }
+a.new-entity{
+  width:120px;
+  height:22px;
+  display:block;
+  overflow:hidden;
+  text-indent:-90000px;
+  background:url(../images/cadastrar.png) no-repeat;
+  text-align:left;
+}
 
 hr{ height:1px; }
 
@@ -115,6 +124,7 @@ form.search{
 div.generic-tools form.search.item{
   padding:6px 15px;
 }
+div.generic-tools form.search input{ width: 160px;}
 form.search span.searchfield-left{
   height:19px;
   width:20px;
@@ -126,7 +136,7 @@ form.search input{
   margin:0;
   padding:3px 3px 3px 2px;
   font-size:0.9em;
-  width:160px;
+  width:100px;
   border:none;
   background:url(../images/search/searchfield-repeat.png) repeat-x;
   color:#666;
@@ -157,6 +167,11 @@ div.full-content-top{
   padding:0;
   margin-top:20px;
 }
+.full-content-top-tools { overflow:auto; }
+.full-content-top-tools h2{  line-height:40px;}
+.full-content-top-tools div.tool { padding-top:15px; float:left margin-right:15px; text-align:right;}
+.full-content-top-tools div.tool a, .full-content-top-tools div.tool form{ float:right; }
+
 div.full-content-top.with-left-sidebar{ background:url(../images/blocks/full-content-top-with-left-sidebar.png) top left no-repeat; }
 div.full-content-top.with-right-sidebar{ background:url(../images/blocks/full-content-top-with-right-sidebar.png) top left no-repeat; }
 div.full-content-top.with-two-sidebars{ background:url(../images/blocks/full-content-top-with-two-sidebars.png) top left no-repeat; }
@@ -307,13 +322,20 @@ table.table tr th{
   background:url(../images/table-th.png) repeat-x;
   border-bottom:1px solid #e0e0e0;
 }
-table.table tr.even td{
+table tr.even td{
   background:#f7f7f7;
 }
-table.table td.first, table.table th.first{
+table td.first, table th.first,{
   text-align:center;
 }
 table.table td.last, table.table th.last { text-align:right;}
+
+table.big-table td, table.big-table th{ padding:10px 15px; }
+table.big-table th { font-size:1.2em; border-bottom:1px dotted #d5d5d5; }
+
+
+/* mini-buttons */
+table.big-table th .mini-button { font-size: 0.8em; }
 .mini-button{
   display:block; 
   width:45px; 
@@ -325,6 +347,8 @@ table.table td.last, table.table th.last { text-align:right;}
   color:#fff;
   text-align:left;
 }
+
+
 .mini-button:hover { background:url(../images/mini-button-hover.png) no-repeat; color:#fff; }
 .mini-button.red { background:url(../images/destroy-mini-button.png) no-repeat; }
 .mini-button.red:hover { background:url(../images/destroy-mini-button-hover.png) no-repeat; color:#fff; }
@@ -376,3 +400,9 @@ ul.mini-list{
 }
 ul.mini-list li{ margin: 2px auto; }
 
+ul.big-list{
+  margin:0 0 1.5em 0;
+  list-style-type:none;
+}
+ul.big-list li { margin-bottom:20px; }
+ul.big-list img.avatar { width:70px; height: 70px; }
